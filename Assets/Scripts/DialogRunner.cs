@@ -6,6 +6,8 @@ public class DialogRunner : MonoBehaviour
 {
     [SerializeField] DialogDisplayer dialogDisplayer;
 
+  
+
     private void Start()
     {
         StartCoroutine(DialogRoutineTest());
